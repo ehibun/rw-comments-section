@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerFactionCommenter</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->The [AnimalBadass]s</li>
+        <li>r_name->The [AnimalBadass] Men</li>
+        <li>r_name->The [AnimalBadass]s of [ConceptBadass]</li>
+        <li>r_name->The [PersonBadass]s of [ConceptBadass]</li>
+        <li>r_name->The [PersonBadass]s</li>
+        <li>r_name->The [Enemy]s</li>
+        <li>r_name->The [Weapon] Men</li>
+        <li>r_name->The [Weapon]s</li>
+        <li>r_name->The [Weapon] [AnimalBadass]s</li>
+        <li>r_name->The [Weapon] [Enemy]s</li>
+        <li>r_name->The [ColorBadass] [Weapon]s</li>
+        <li>r_name->The [ColorBadass] [AnimalBadass]s</li>
+        <li>r_name->The [ColorBadass] [PersonBadass]s</li>
+        <li>r_name->The [ColorBadass] [Enemy]s</li>
+        <li>r_name->The [PersonBadass] [groupname]</li>
+        <li>r_name->The [Enemy] [Enemy]s</li>
+        <li>r_name->The [AdjectiveBadass] [groupname]</li>
+        <li>r_name->The [AdjectiveBadass] [AnimalBadass]s</li>
+        <li>r_name->The [AdjectiveBadass] [Enemy]s</li>
+        <li>r_name->The [AdjectiveBadass] [PersonBadass]s</li>
+        <li>r_name->[NamePerson]'s [Enemy]s</li>
+        <li>r_name->[NamePerson]'s [AnimalBadass]s</li>
+        <li>r_name->[NamePerson]'s [Weapon]s</li>
+        <li>r_name->[Weapon] [groupname]</li>
+        <li>r_name->[ConceptBadass] [groupname]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>groupname->Words/Nouns/GroupNames</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

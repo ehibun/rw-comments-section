@@ -5,8 +5,17 @@
     <defName>Commenter</defName>
     <label>YouTube comments section</label>
     <description>They are endless. They are legion. And they are really mad about that one time you didn't sell uranium.</description>
+    <listOrderPriority>80</listOrderPriority>
+
+    <pawnSingular>commenter</pawnSingular>
+    <pawnsPlural>commenters</pawnsPlural>
+    <leaderTitle>Susan's speaker</leaderTitle>
+    <factionNameMaker>NamerFactionCommenter</factionNameMaker>
+
     <goodwillDailyGain>0.1</goodwillDailyGain>
     <goodwillDailyFall>0.1</goodwillDailyFall>
+    <startingGoodwill>-40</startingGoodwill>
+    <naturalColonyGoodwill>-40~-30</naturalColonyGoodwill>
   </FactionDef>
 
 </Defs>
