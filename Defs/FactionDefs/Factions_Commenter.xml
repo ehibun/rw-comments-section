@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FactionDef Name="Commenter" ParentName="TribeBase">
+    <defName>Commenter</defName>
+    <label>YouTube comments section</label>
+    <description>They are endless. They are legion. And they are really mad about that one time you didn't sell uranium.</description>
+    <goodwillDailyGain>0.1</goodwillDailyGain>
+    <goodwillDailyFall>0.1</goodwillDailyFall>
+  </FactionDef>
+
+</Defs>

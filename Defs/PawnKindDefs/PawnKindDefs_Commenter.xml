@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnKindDef Name="CommenterBase" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>Commenter</defaultFactionType>
+    <chemicalAddictionChance>0.2</chemicalAddictionChance>
+    <invNutrition>2.55</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+    <maxGenerationAge>30</maxGenerationAge>
+    <combatEnhancingDrugsChance>0.3</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+    <biocodeWeaponChance>0</biocodeWeaponChance>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="CommenterBase">
+    <defName>Commenters_Lowly</defName>
+    <label>lowly</label>
+    <combatPower>25</combatPower>
+    <chemicalAddictionChance>0.10</chemicalAddictionChance>
+    <invNutrition>0</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>90~150</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
+
+</Defs>
